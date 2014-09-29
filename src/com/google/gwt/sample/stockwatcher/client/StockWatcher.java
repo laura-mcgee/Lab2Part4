@@ -48,7 +48,7 @@ public void onModuleLoad() {
     LoginServiceAsync loginService = GWT.create(LoginService.class);
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
-    	  System.out.println("conflict test1");
+    	  System.out.println("conflict test-ian");
     	  handleError(error);
       }
 
